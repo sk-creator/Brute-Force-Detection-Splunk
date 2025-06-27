@@ -45,8 +45,7 @@ The Splunk dashboard for this project includes:
 
 📋 Detailed Failed Login Events
 	•	Table listing user, source IP, and failed attempt count for analyst triage
-
-<img width="1457" alt="Screenshot 2025-06-27 at 16 47 21" src="https://github.com/user-attachments/assets/49890211-14c6-45c5-984d-08ea72ad04e7" />
+https://github.com/sk-creator/Brute-Force-Detection-Splunk/blob/DASHBOARD/Screenshot%202025-06-27%20at%2016.47.21.png
 
 
 📌 MITRE ATT&CK Mapping
