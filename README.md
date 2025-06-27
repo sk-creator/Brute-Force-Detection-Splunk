@@ -36,4 +36,71 @@ index=* sourcetype=csv EventCode=4625
 
 ⸻
 
+📌 Dashboard Panels
+
+The Splunk dashboard for this project includes:
+
+📊 Brute-Force Attempt Counts by User and Source IP
+	•	Bar Chart highlighting top offending accounts/IPs
+
+📋 Detailed Failed Login Events
+	•	Table listing user, source IP, and failed attempt count for analyst triage
+
+<img width="1457" alt="Screenshot 2025-06-27 at 16 47 21" src="https://github.com/user-attachments/assets/49890211-14c6-45c5-984d-08ea72ad04e7" />
+
+
+📌 MITRE ATT&CK Mapping
+	•	Tactic: Credential Access
+	•	Technique: T1110 (Brute Force)
+
+This detection aligns with MITRE ATT&CK Framework, helping SOC teams standardize detection coverage.
+
+⸻
+
+📌 Tools & Skills Used
+	•	Splunk Enterprise (Free version for lab)
+	•	SPL (Search Processing Language)
+	•	Data ingestion and indexing
+	•	Dashboard design and customization
+	•	MITRE ATT&CK framework mapping
+
+⸻
+
+📌 Outcome
+
+✅ Enables SOC teams to:
+	•	Detect brute-force login attempts early
+	•	Identify high-risk users and source IPs
+	•	Investigate and respond faster
+	•	Customize detection thresholds based on environment
+
+⸻
+
+📌 Next Steps
+	•	Automate alert creation in Splunk
+	•	Create Splunk saved searches and scheduled alerts
+	•	Build Sigma rules for cross-SIEM compatibility
+	•	Extend detection to other EventCodes (e.g. 4624 for successful logins)
+
+⸻
+
+📌 Author
+
+👤 SHIVANSH KAUSHIK
+	•	Role: Aspiring SOC Analyst | Blue Team Enthusiast
+	•	Certification: CompTIA Security+
+
+
+⸻
+
+📌 License
+
+This project is for educational purposes. Feel free to use or adapt for your own learning!
+
+
+
+
+
+
+
 
